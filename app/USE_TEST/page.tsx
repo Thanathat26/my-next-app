@@ -1,6 +1,13 @@
+import Counter from '@/components/Counter'
+
+//rafce
 const USE_TESTpage = () => {
   return (
-    <div>USE_TEST_page</div>
+    <div>
+      page
+      <Counter />
+    </div>
   )
 }
+
 export default USE_TESTpage
